@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2B63772-1644-4180-8168-E8CAFFF2BF9C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SisCitasMedicas</RootNamespace>
+    <AssemblyName>SisCitasMedicas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCitas.Designer.cs">
+      <DependentUpon>ListaCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaConsultorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaConsultorio.Designer.cs">
+      <DependentUpon>ListaConsultorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaDoctores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaDoctores.Designer.cs">
+      <DependentUpon>ListaDoctores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaEspecialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaEspecialidad.Designer.cs">
+      <DependentUpon>ListaEspecialidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaHistorial.Designer.cs">
+      <DependentUpon>ListaHistorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaPaciente.Designer.cs">
+      <DependentUpon>ListaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaRoles.Designer.cs">
+      <DependentUpon>ListaRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaUsuarios.Designer.cs">
+      <DependentUpon>ListaUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionCombo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarCita.Designer.cs">
+      <DependentUpon>RegistrarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarRoles.Designer.cs">
+      <DependentUpon>RegistrarRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrarse.Designer.cs">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroAsignacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroAsignacion.Designer.cs">
+      <DependentUpon>RegistroAsignacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroConsultoriocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroConsultoriocs.Designer.cs">
+      <DependentUpon>RegistroConsultoriocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroDoctores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroDoctores.Designer.cs">
+      <DependentUpon>RegistroDoctores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroEspecialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroEspecialidad.Designer.cs">
+      <DependentUpon>RegistroEspecialidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroHistorial.Designer.cs">
+      <DependentUpon>RegistroHistorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroPacientes.Designer.cs">
+      <DependentUpon>RegistroPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\OpcionCombo.cs" />
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCitas.resx">
+      <DependentUpon>ListaCitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaConsultorio.resx">
+      <DependentUpon>ListaConsultorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaDoctores.resx">
+      <DependentUpon>ListaDoctores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaEspecialidad.resx">
+      <DependentUpon>ListaEspecialidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaHistorial.resx">
+      <DependentUpon>ListaHistorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaPaciente.resx">
+      <DependentUpon>ListaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaRoles.resx">
+      <DependentUpon>ListaRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaUsuarios.resx">
+      <DependentUpon>ListaUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegistrarCita.resx">
+      <DependentUpon>RegistrarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarRoles.resx">
+      <DependentUpon>RegistrarRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrarse.resx">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroConsultoriocs.resx">
+      <DependentUpon>RegistroConsultoriocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroDoctores.resx">
+      <DependentUpon>RegistroDoctores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroEspecialidad.resx">
+      <DependentUpon>RegistroEspecialidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroHistorial.resx">
+      <DependentUpon>RegistroHistorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroPacientes.resx">
+      <DependentUpon>RegistroPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equipo-medico2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asistencia-medica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estetoscopio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paciente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secretario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servicio-de-consultoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\especialista-en-covid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metodo-de-pago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registros-medicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\examen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\examen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{de868889-13cb-48ee-ad32-197310706ba1}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{65e50e3b-9ad8-4201-9691-4933326d6eba}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
+      <Project>{896efaea-14b1-489b-99d5-81d450447bd3}</Project>
+      <Name>CapaNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\check20.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

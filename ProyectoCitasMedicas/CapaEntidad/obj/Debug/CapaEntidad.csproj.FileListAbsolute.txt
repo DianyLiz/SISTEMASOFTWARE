@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\obj\Debug\CapaEntidad.Properties.Resources.resources
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\obj\Debug\CapaEntidad.csproj.GenerateResource.cache
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaEntidad\obj\Debug\CapaEntidad.dll

@@ -1,0 +1,13 @@
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\obj\Debug\CapaDatos.Properties.Resources.resources
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.cache
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\bin\Debug\CapaEntidad.dll.config
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\User\Documents\Clases III Periodo 2024\Ingenieria de Software\ProyectoCitasMedicas\CapaDatos\obj\Debug\CapaDatos.pdb
